@@ -1,4 +1,4 @@
-bname: Mobile + Release
+name: Mobile + Release
 on:
   push:
     branches: [ riolubfskinshiny ]
