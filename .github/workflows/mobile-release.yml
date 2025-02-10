@@ -1,5 +1,6 @@
-name: Mobile + Releaseon:
-  # Triggers the workflow on push or pull request events but only for the master branch
+name: Mobile + Release
+on:
+  push:
   push:
     branches: [ main ]
   pull_request:
