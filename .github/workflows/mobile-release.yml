@@ -7,7 +7,7 @@ permissions:
 
 env:
   PROJECT_NAME: PsychEngine
-  REPO_PATH: MatthewFro191919/Dave-and-Bambi-Plus-Reformed-riolubfskins-Mobile-2
+  REPO_PATH:  MatthewFro191919/Dave-and-Bambi-Plus-Reformed-riolubfskins-Mobile-2
 
 jobs:
   get-commit-hash:
@@ -47,7 +47,7 @@ jobs:
             artifactPath: "export/release/android/bin/app/build/outputs/apk/release/*.apk"
           - name: iOS
             os: macos-15
-            setupCommand: sh ./setup/mobile.sh
+            setupCommand: sh ./setup/unix.sh
             buildArgs: "ios -final -nosign -D officialBuild"
             artifactName: iOSBuild
             artifactPath: "export/release/ios/build/Release-iphoneos/*.ipa"
