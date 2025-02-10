@@ -1,5 +1,9 @@
-name: Mobile + Release
-on: workflow_dispatch
+name: Mobile + Releaseon:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 permissions:
   contents: write
