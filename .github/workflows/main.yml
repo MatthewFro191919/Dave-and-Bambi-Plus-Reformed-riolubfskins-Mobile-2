@@ -1,7 +1,5 @@
-name: Main
-# Controls when the action will run. 
+name: Mobile + Release
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ riolubfskin ]
   pull_request:
